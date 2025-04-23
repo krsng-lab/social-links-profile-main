@@ -1,0 +1,44 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+}
+
+
+.profile-card {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /*why does flex-basis: 25vw; not work here*/
+    /*update: this is because flex-direction: column causes flex-basis to adjust the height instead */
+    width: 18vw;
+    height: 64vh;
+    padding: 24px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-container {
+    display: flex; 
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-box {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    height: 5vh;
+    margin: 8px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 14px;
+}
