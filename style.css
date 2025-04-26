@@ -9,7 +9,6 @@ img {
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-weight: 400;
     display: flex;
     flex-direction: column;
@@ -28,6 +27,7 @@ body {
 
 .profile-card {
     background-color: hsl(0, 0%, 12%);
+    overflow: hidden;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -91,6 +91,8 @@ body {
 .short-summary,
 .nav-box {
     color: hsl(0, 0%, 100%);
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .attribution {
