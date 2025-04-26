@@ -29,7 +29,7 @@ Users should be able to:
 ![](./screenshot.png)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [URL](https://krsng-lab.github.io/social-links-profile-main/)
 
 ## My process
 
@@ -43,9 +43,6 @@ Users should be able to:
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 ```
